@@ -193,7 +193,7 @@ a {
   width: min(92vw, 1200px);
   box-sizing: border-box;
 }
-.modal-header { justify-content: center; margin: 4px 0; }
+.modal-header { justify-content: center; margin: 30px 0 4px 0; }
 .modal-footer { flex-direction: column; align-items: stretch; gap: 6px; }
 .modal-footer .footer-row { display: flex; justify-content: space-between; align-items: center; }
 .modal-footer .credits { text-align: center; }
@@ -339,7 +339,7 @@ a {
   /* Align modal media with grid margins on mobile (24px each side) */
   .modal video, .modal iframe { width: calc(100vw - 48px); max-height: 60vh; }
   .modal-header, .modal-footer { width: calc(100vw - 48px); padding: 0; }
-  .modal-header { margin-top: 18px; }
+  .modal-header { margin-top: 14px; }
 
   /* Mobile top bar: work/contact (left) and edits/directed (right) */
   .topbar { 
