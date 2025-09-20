@@ -10,8 +10,7 @@ const creditsJson = import.meta.glob('../media/edits/**/credits.json', { eager: 
 
 function humanize(slug) {
   let result = slug.replace(/[-_]+/g, ' ').replace(/\b\w/g, (m) => m.toUpperCase())
-  // Handle special cases for Spanish characters
-  result = result.replace(/\bESPANA\b/g, 'ESPAÑA')
+  // Keep ESPANA as is to avoid URL encoding issues
   return result
 }
 
